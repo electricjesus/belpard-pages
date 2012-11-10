@@ -1,0 +1,84 @@
+/* line 1, ../sass/belpard-styles.scss */
+.header, .footer, .label, .panel.banner {
+  background-color: #242a68;
+  color: #ffe;
+}
+
+/* line 5, ../sass/belpard-styles.scss */
+.header {
+  margin-bottom: 30px;
+}
+
+/* line 8, ../sass/belpard-styles.scss */
+.footer abbr {
+  color: #ffe;
+}
+
+/* line 11, ../sass/belpard-styles.scss */
+.footer .contact-us {
+  margin-top: 40px;
+}
+
+/* line 14, ../sass/belpard-styles.scss */
+h1.company {
+  background: url("../images/shops/belpard-logo-full.png") 0 0 no-repeat;
+  height: 77px;
+  margin-top: 40px;
+}
+
+/* line 20, ../sass/belpard-styles.scss */
+.panel-title {
+  text-align: center;
+  margin-top: -30px !important;
+}
+
+/* line 25, ../sass/belpard-styles.scss */
+.panel .side-nav {
+  margin-left: 10px;
+}
+
+/* line 29, ../sass/belpard-styles.scss */
+.side-nav.dotted li {
+  background: url("../images/shops/belpard-list-dot.png") 0 0 no-repeat;
+  text-indent: 35px;
+}
+
+/* line 33, ../sass/belpard-styles.scss */
+.side-nav.dotted li a {
+  color: #666;
+}
+
+/* line 36, ../sass/belpard-styles.scss */
+.panel.banner blockquote {
+  text-align: center;
+  font-style: italic;
+  border-left: none;
+  color: #ffe;
+  letter-spacing: -0.03em;
+}
+
+/* line 44, ../sass/belpard-styles.scss */
+blockquote {
+  color: #777;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: -0.08em;
+}
+
+/* line 50, ../sass/belpard-styles.scss */
+blockquote cite {
+  color: #194b90;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/* line 55, ../sass/belpard-styles.scss */
+ul.block-grid.six-up li {
+  padding-left: 4px;
+  background: url("../images/shops/belpard-separator-vertical.png") 0 0 no-repeat;
+}
+
+/* line 59, ../sass/belpard-styles.scss */
+ul.block-grid.six-up li.first {
+  background: none;
+}
