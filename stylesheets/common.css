@@ -1,0 +1,59 @@
+/* line 1, ../sass/common.scss */
+div.footer {
+  background: url("../images/shops/footer-bg.jpg") 0 0 repeat-x;
+  height: 101px;
+}
+
+/* line 5, ../sass/common.scss */
+div.section-title h3 {
+  text-shadow: white 0px 1px 0, #666666 0 -1px 0;
+}
+
+/* line 6, ../sass/common.scss */
+div.section-title {
+  padding: 20px 0 15px;
+}
+
+/* line 7, ../sass/common.scss */
+div.section-title.ruled {
+  background: url("../images/shops/rennaisance/horizontal-rule-dotted.png") 0 0 no-repeat;
+}
+
+/* line 8, ../sass/common.scss */
+div.footer address {
+  line-height: 1.5em;
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* line 9, ../sass/common.scss */
+div.footer ul.side-nav li {
+  margin-bottom: 0px;
+}
+
+/* line 10, ../sass/common.scss */
+div.footer img.footer-logo {
+  margin-top: 10%;
+}
+
+/* line 11, ../sass/common.scss */
+div.footer a {
+  color: #242424;
+}
+
+/* line 13, ../sass/common.scss */
+.has-hiding-link a.hiding-link {
+  display: none;
+}
+
+/* line 14, ../sass/common.scss */
+.has-hiding-link:hover a.hiding-link {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}

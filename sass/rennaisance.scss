@@ -1,0 +1,59 @@
+$mainProductImageWidth : 640px;
+$mainProductImageHeight : 426px;
+html {background-color:#fbfbfb}
+body * {font-family: 'Droid Sans', serif}
+
+.hero-unit h1 {font-size:60px;font-style:italic;margin-top:50px}
+.hero-unit p, .content p {font-size:12px;}
+.hero-unit p {color:#fff; font-weight:700;font-size:13px;letter-spacing:0.03em;}
+.inset { text-shadow:#c05c04 0px 1px 0, #000 0 -1px 0;}
+
+.content.features .block-grid.six-up li {width:140px;margin:0 10px;min-height:250px}
+.content.features .block-grid.six-up li h5 {height:50px}
+.content.uses .block-grid.four-up li {width:212px;margin:0 16px}
+h1 {color:#c05c04}
+h3 {color:#189590;font-style:italic;padding-left:10px;letter-spacing:-0.07em}
+h5 {color:#914127;font-style:italic;letter-spacing:-0.07em}
+h1.company {
+  background: url("../images/shops/rennaisance/logo.png") 0 0 no-repeat;
+  height: 121px;
+  margin-top: 8px;
+}
+h1.bigtext-image {
+  text-indent: 100%;  
+  white-space: nowrap;  
+  overflow: hidden;  
+  background: url("../images/shops/rennaisance/top-middle-big-text.png") 0 0 no-repeat;
+  height: 136px;  
+}
+div.top {
+	background: url("../images/shops/rennaisance/top-head-texture.png") 0 0 no-repeat;
+	height:163px;	
+}
+div.middle {
+	background: url("../images/shops/rennaisance/top-middle-texture.png") 0 0 no-repeat;	
+	height:330px;
+	margin-top:-18px;
+}
+img.product {
+	position:absolute;
+	max-width:$mainProductImageWidth;
+	width: $mainProductImageWidth;
+	height: $mainProductImageHeight;
+	margin-top:26px;
+	margin-left:-100px;
+}
+img.product-mobile {
+	position:absolute;
+}
+
+div.content.features {
+	background: url("../images/shops/rennaisance/top-bottom-texture.png") 0 0 no-repeat;	
+}
+
+.button {background:#de7621;border: 1px solid #8c691e;}
+.button:hover {background:#f28f3f}
+
+blockquote {color:#333;font-style:italic;border:0;margin:0 0 8px}
+blockquote cite {font-size:16px;color:#914127;font-weight:700}
+
