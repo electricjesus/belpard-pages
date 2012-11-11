@@ -11,11 +11,13 @@ h1.company {
 }
 
 div.top {
-	background: url("../images/shops/sweepa/top-head-texture.jpg") 0 0 no-repeat;
+	background: url("../images/shops/sweepa/top-head-texture.jpg") 50% 50% no-repeat;	
 	height:112px;	
+	background-size:1400px;
 }
 div.middle {
-	background: url("../images/shops/sweepa/top-middle-texture.jpg") 0 0 no-repeat;	
+	background: url("../images/shops/sweepa/top-middle-texture.jpg") 50% 50% no-repeat;		
+	background-size:1400px;
 	height:330px;
 	margin-top:-18px;
 }
@@ -26,9 +28,12 @@ h1.bigtext-image {
   overflow: hidden;  
   background: url("../images/shops/sweepa/top-middle-big-text.png") 0 0 no-repeat;
   height: 201px; 
-  width:660px;
+  width:628px;
   margin-top:50px;
   margin-left:-70px;
+}
+h1.bigtext-image.mobile {
+	margin-left:0px;
 }
 
 div.content.products-features {

@@ -36,40 +36,47 @@ h1.company {
 
 /* line 13, ../sass/sweepa.scss */
 div.top {
-  background: url("../images/shops/sweepa/top-head-texture.jpg") 0 0 no-repeat;
+  background: url("../images/shops/sweepa/top-head-texture.jpg") 50% 50% no-repeat;
   height: 112px;
+  background-size: 1400px;
 }
 
-/* line 17, ../sass/sweepa.scss */
+/* line 18, ../sass/sweepa.scss */
 div.middle {
-  background: url("../images/shops/sweepa/top-middle-texture.jpg") 0 0 no-repeat;
+  background: url("../images/shops/sweepa/top-middle-texture.jpg") 50% 50% no-repeat;
+  background-size: 1400px;
   height: 330px;
   margin-top: -18px;
 }
 
-/* line 23, ../sass/sweepa.scss */
+/* line 25, ../sass/sweepa.scss */
 h1.bigtext-image {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   background: url("../images/shops/sweepa/top-middle-big-text.png") 0 0 no-repeat;
   height: 201px;
-  width: 660px;
+  width: 628px;
   margin-top: 50px;
   margin-left: -70px;
 }
 
-/* line 34, ../sass/sweepa.scss */
+/* line 35, ../sass/sweepa.scss */
+h1.bigtext-image.mobile {
+  margin-left: 0px;
+}
+
+/* line 39, ../sass/sweepa.scss */
 div.content.products-features {
   background: url("../images/shops/sweepa/top-bottom-texture.jpg") 0 0 repeat-x;
 }
 
-/* line 38, ../sass/sweepa.scss */
+/* line 43, ../sass/sweepa.scss */
 div.content.products-features ul.block-grid li {
   position: relative;
 }
 
-/* line 40, ../sass/sweepa.scss */
+/* line 45, ../sass/sweepa.scss */
 div.price {
   height: 80px;
   width: 84px;
@@ -79,7 +86,7 @@ div.price {
   padding-top: 10px;
 }
 
-/* line 48, ../sass/sweepa.scss */
+/* line 53, ../sass/sweepa.scss */
 div.price h3 {
   color: #ffa200;
   font-style: normal;
@@ -89,7 +96,7 @@ div.price h3 {
   margin-left: -5px;
 }
 
-/* line 57, ../sass/sweepa.scss */
+/* line 62, ../sass/sweepa.scss */
 div.call-to-action {
   height: 56px;
   width: 135px;
@@ -99,7 +106,7 @@ div.call-to-action {
   background: url("../images/shops/sweepa/product-button-base.png") 0 0 no-repeat;
 }
 
-/* line 65, ../sass/sweepa.scss */
+/* line 70, ../sass/sweepa.scss */
 div.call-to-action h6 {
   color: #eee;
   text-align: center;
@@ -108,7 +115,7 @@ div.call-to-action h6 {
   white-space: nowrap;
 }
 
-/* line 72, ../sass/sweepa.scss */
+/* line 77, ../sass/sweepa.scss */
 div.call-to-action a {
   color: #fff;
   font-weight: 700;
@@ -120,7 +127,7 @@ div.call-to-action a {
   font-size: 13px;
 }
 
-/* line 82, ../sass/sweepa.scss */
+/* line 87, ../sass/sweepa.scss */
 div.section-content.first {
   margin-top: 50px;
 }

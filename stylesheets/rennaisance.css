@@ -89,18 +89,20 @@ h1.bigtext-image {
 
 /* line 29, ../sass/rennaisance.scss */
 div.top {
-  background: url("../images/shops/rennaisance/top-head-texture.png") 0 0 no-repeat;
+  background: url("../images/shops/rennaisance/top-head-texture.png") 50% 50% no-repeat;
+  background-size: 1400px;
   height: 163px;
 }
 
-/* line 33, ../sass/rennaisance.scss */
+/* line 34, ../sass/rennaisance.scss */
 div.middle {
-  background: url("../images/shops/rennaisance/top-middle-texture.png") 0 0 no-repeat;
+  background: url("../images/shops/rennaisance/top-middle-texture.png") 50% 50% no-repeat;
+  background-size: 1400px;
   height: 330px;
   margin-top: -18px;
 }
 
-/* line 38, ../sass/rennaisance.scss */
+/* line 40, ../sass/rennaisance.scss */
 img.product {
   position: absolute;
   max-width: 640px;
@@ -110,28 +112,28 @@ img.product {
   margin-left: -100px;
 }
 
-/* line 46, ../sass/rennaisance.scss */
+/* line 48, ../sass/rennaisance.scss */
 img.product-mobile {
   position: absolute;
 }
 
-/* line 50, ../sass/rennaisance.scss */
+/* line 52, ../sass/rennaisance.scss */
 div.content.features {
   background: url("../images/shops/rennaisance/top-bottom-texture.png") 0 0 no-repeat;
 }
 
-/* line 54, ../sass/rennaisance.scss */
+/* line 56, ../sass/rennaisance.scss */
 .button {
   background: #de7621;
   border: 1px solid #8c691e;
 }
 
-/* line 55, ../sass/rennaisance.scss */
+/* line 57, ../sass/rennaisance.scss */
 .button:hover {
   background: #f28f3f;
 }
 
-/* line 57, ../sass/rennaisance.scss */
+/* line 59, ../sass/rennaisance.scss */
 blockquote {
   color: #333;
   font-style: italic;
@@ -139,7 +141,7 @@ blockquote {
   margin: 0 0 8px;
 }
 
-/* line 58, ../sass/rennaisance.scss */
+/* line 60, ../sass/rennaisance.scss */
 blockquote cite {
   font-size: 16px;
   color: #914127;

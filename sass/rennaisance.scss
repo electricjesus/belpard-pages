@@ -27,11 +27,13 @@ h1.bigtext-image {
   height: 136px;  
 }
 div.top {
-	background: url("../images/shops/rennaisance/top-head-texture.png") 0 0 no-repeat;
-	height:163px;	
+	background: url("../images/shops/rennaisance/top-head-texture.png") 50% 50% no-repeat;
+	background-size:1400px;	
+	height:163px;
 }
 div.middle {
-	background: url("../images/shops/rennaisance/top-middle-texture.png") 0 0 no-repeat;	
+	background: url("../images/shops/rennaisance/top-middle-texture.png") 50% 50% no-repeat;	
+	background-size:1400px;	
 	height:330px;
 	margin-top:-18px;
 }
