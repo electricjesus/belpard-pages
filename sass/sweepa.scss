@@ -1,3 +1,84 @@
-.hero-unit {
-	
+html,body {background-color:#eef5f9}
+body * {font-family: 'Droid Sans', serif}
+
+h1 {color:#c05c04}
+h3 {color:#ff9d00;font-style:italic;letter-spacing:-0.07em}
+h5 {color:#be0024;font-style:italic;letter-spacing:-0.07em}
+h1.company {
+  background: url("../images/shops/sweepa/logo.png") 0 0 no-repeat;
+  height: 100px;
+  margin-top: 18px;
+}
+
+div.top {
+	background: url("../images/shops/sweepa/top-head-texture.jpg") 0 0 no-repeat;
+	height:112px;	
+}
+div.middle {
+	background: url("../images/shops/sweepa/top-middle-texture.jpg") 0 0 no-repeat;	
+	height:330px;
+	margin-top:-18px;
+}
+
+h1.bigtext-image {
+  text-indent: 100%;  
+  white-space: nowrap;  
+  overflow: hidden;  
+  background: url("../images/shops/sweepa/top-middle-big-text.png") 0 0 no-repeat;
+  height: 201px; 
+  width:660px;
+  margin-top:50px;
+  margin-left:-70px;
+}
+
+div.content.products-features {
+	background: url("../images/shops/sweepa/top-bottom-texture.jpg") 0 0 repeat-x;	
+}
+
+div.content.products-features ul.block-grid li {position:relative}
+
+div.price {
+	height:80px;
+	width:84px;	
+	right:0;
+	background: url("../images/shops/sweepa/product-price-base.png") 0 0 no-repeat;	
+	text-align:center;
+	padding-top:10px;	
+}
+div.price h3 {
+	color:#ffa200;
+	font-style:normal;
+	text-shadow:#fff 2px 2px 2px, #fff -2px -2px 2px, #fff -2px 2px 2px, #fff 2px -2px 2px;
+	font-size:32px;
+	padding:0;
+	margin-left:-5px
+}
+
+div.call-to-action {
+	height:56px;
+	width:135px;
+	position:absolute;	
+	right:0;
+	top:50px;	
+	background: url("../images/shops/sweepa/product-button-base.png") 0 0 no-repeat;
+}
+div.call-to-action h6 {
+	color: #eee;	
+	text-align:center;
+	margin:8px 0 0 0;
+	font-size:13px;
+	white-space:nowrap;
+}	
+div.call-to-action a {
+	color: #fff;
+	font-weight: 700;
+	padding-top:8px;
+	display:block;
+	margin-top:10px auto;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:13px;
+}
+div.section-content.first {
+	margin-top:50px;
 }

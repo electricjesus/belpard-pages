@@ -1,0 +1,78 @@
+html,body {background-color:#e0eded}
+body * {font-family: 'Droid Sans', serif}
+h1.company {
+  background: url("../images/shops/magic-rangs/logo.png") 0 0 no-repeat;
+  height: 121px;
+  margin-top: 28px;
+}
+h1 {color:#34d800}
+h1.bigtext-image {
+  text-indent: 100%;  
+  white-space: nowrap;  
+  overflow: hidden;  
+  background: url("../images/shops/magic-rangs/top-middle-big-text.png") 0 0 no-repeat;
+  height: 136px; 
+  margin-left:150px;
+  z-index:999;
+  position:absolute;
+  width:293px;
+  margin-top:65px;
+}
+.mobile-four.show-for-small {text-align:center}
+h1.bigtext-image.mobile {
+	margin-left:0;
+	position:relative;
+	margin:auto;
+}
+img.product-visual {
+	position:absolute;
+	z-index:99;
+	margin-top:-150px;
+}
+img.product-mobile {
+	margin:30px 30px 0 0;
+	float:right
+}
+h3 {color:#3ec0d1;padding-left:10px;letter-spacing:-0.07em;font-size:40px}
+h5 {color:#3ec0d1}
+div.top {
+	background: url("../images/shops/magic-rangs/top-header-texture.jpg") 0 0 repeat-x;
+	height:131px;	
+}
+div.middle {
+	background: url("../images/shops/magic-rangs/cloud-tile.jpg") 0 100% repeat-x;	
+	height:343px;	
+	background-color:#3ec0d1;
+}
+div.price {
+	height:125px;
+	width:83px;
+	position:absolute;
+	background: url("../images/shops/magic-rangs/price-badge.png") 0 0 no-repeat;
+	padding-top:10px;
+	text-align:center;
+	margin:50px 0 0 -15px;	
+}
+div.price h3 {
+	color:#ffa200;
+	text-shadow:#fff 2px 2px 2px, #fff -2px -2px 2px, #fff -2px 2px 2px, #fff 2px -2px 2px;
+}
+div.price h3 small {
+	color:#d29324;
+}
+img.product {
+	margin-left:20px
+}
+ul.bulleted { padding: 0;margin:0 }
+ul.bulleted li {
+	list-style-type:none;
+	background: url("../images/shops/magic-rangs/bullet.png") 0 0 no-repeat;
+	padding-left:30px
+}
+div.content.products-features {
+	background: url("../images/shops/magic-rangs/top-bottom-texture.png") 0 0 repeat-x;	
+}
+div.content.products-features .section-content ul li, div.content.products-features .section-content p {font-size:13px}
+
+blockquote {color:#333;font-style:italic;border:0;margin:0 0 8px;letter-spacing:-0.07em}
+blockquote cite {font-size:16px;color:#3ec0d1;font-weight:700}

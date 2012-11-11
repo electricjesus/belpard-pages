@@ -1,14 +1,19 @@
-div.footer {
-	background: url("../images/shops/footer-bg.jpg") 0 0 repeat-x;	
-	height:101px;
-}
+
 div.section-title h3 {text-shadow:#fff 0px 1px 0, #666 0 -1px 0;}
 div.section-title {padding:20px 0 15px}
 div.section-title.ruled {background: url("../images/shops/rennaisance/horizontal-rule-dotted.png") 0 0 no-repeat;}
+
+div.footer {background: url("../images/shops/footer-bg.jpg") 0 0 repeat-x;background-color:#fff}
 div.footer address {line-height:1.5em;margin-top:20px;font-style:normal}
 div.footer ul.side-nav li {margin-bottom:0px;}
 div.footer img.footer-logo {margin-top:10%}
 div.footer a {color:#242424}
+
+div.footer.dark {background: url("../images/shops/footer-bg-dark.jpg") 0 0 repeat-x;background-color:#000}
+div.footer.dark address {line-height:1.5em;margin-top:20px;font-style:normal;color:#ccc}
+div.footer.dark ul.side-nav li {margin-bottom:0px;}
+div.footer.dark img.footer-logo {margin-top:10%}
+div.footer.dark a, div.footer.dark abbr {color:#ccc}
 
 .has-hiding-link a.hiding-link{ display:none; }
 .has-hiding-link:hover a.hiding-link{ display:inline-block;zoom:1;*display:inline;vertical-align:middle;margin-left:10px;font-size:14px;font-weight:400;font-style:normal }
