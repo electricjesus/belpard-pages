@@ -1,0 +1,73 @@
+html,body {background-color:#fbfbfb}
+body * {font-family: 'Droid Sans', serif}
+h1 {}
+h3 {}
+h5 {color:#fefefe}
+
+.header, .footer, .label, .panel.banner {
+	background-color: #242a68;
+	color: #ffe;
+}
+.header {
+	margin-bottom:20px
+}
+.footer abbr {
+	color: #ffe;
+}
+.footer .contact-us{
+	margin-top:30px
+}
+h1.company {
+	background: url("../images/shops/belpard-logo-full.png") 0 0 no-repeat;
+	height: 77px;
+	margin-top:40px
+}
+
+.panel-title {
+	text-align:center;
+	margin-top: -30px !important;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight:400;
+	text-shadow:#666px 1px 0, #fff 0 -1px 1px;
+}
+
+.panel .side-nav {
+	margin-left:10px
+}
+
+.side-nav.dotted li {
+	background: url("../images/shops/belpard-list-dot.png") 0 0 no-repeat;
+	text-indent: 35px;
+}
+.side-nav.dotted li a {
+	color: #666;
+}
+.panel.banner blockquote {
+	text-align:center;
+	font-style: italic;
+	border-left: none;
+	color: #ffe;
+	letter-spacing: -0.03em;
+}
+
+blockquote {
+	color: #777;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: -0.08em;
+}
+blockquote cite {
+	color: #194b90;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+.banner .row blockquote h5 { color: #fff; }
+.banner ul.block-grid.six-up li {
+	padding-left:4px;
+	/* background: url("../images/shops/belpard-separator-vertical.png") 0 0 no-repeat; */
+}
+ul.block-grid.six-up li.first {
+	background:none;
+}
+.footer ul.side-nav li.active a {color:#aaa}
+ul.side-nav li {margin:0;}
