@@ -1,0 +1,152 @@
+/* line 1, ../sass/magic-rangs.scss */
+html, body {
+  background-color: #e0eded;
+}
+
+/* line 2, ../sass/magic-rangs.scss */
+body * {
+  font-family: 'Droid Sans', serif;
+}
+
+/* line 3, ../sass/magic-rangs.scss */
+h1.company {
+  background: url("../images/shops/magic-rangs/logo.png") 0 0 no-repeat;
+  height: 121px;
+  margin-top: 28px;
+}
+
+/* line 8, ../sass/magic-rangs.scss */
+h1 {
+  color: #34d800;
+}
+
+/* line 9, ../sass/magic-rangs.scss */
+h1.bigtext-image {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("../images/shops/magic-rangs/top-middle-big-text.png") 0 0 no-repeat;
+  height: 136px;
+  margin-left: 150px;
+  z-index: 999;
+  position: absolute;
+  width: 293px;
+  margin-top: 65px;
+}
+
+/* line 21, ../sass/magic-rangs.scss */
+.mobile-four.show-for-small {
+  text-align: center;
+}
+
+/* line 22, ../sass/magic-rangs.scss */
+h1.bigtext-image.mobile {
+  margin-left: 0;
+  position: relative;
+  margin: auto;
+}
+
+/* line 27, ../sass/magic-rangs.scss */
+img.product-visual {
+  position: absolute;
+  z-index: 99;
+  margin-top: -150px;
+}
+
+/* line 32, ../sass/magic-rangs.scss */
+img.product-mobile {
+  margin: 30px 30px 0 0;
+  float: right;
+}
+
+/* line 36, ../sass/magic-rangs.scss */
+h3 {
+  color: #3ec0d1;
+  padding-left: 10px;
+  letter-spacing: -0.07em;
+  font-size: 40px;
+}
+
+/* line 37, ../sass/magic-rangs.scss */
+h5 {
+  color: #3ec0d1;
+}
+
+/* line 38, ../sass/magic-rangs.scss */
+div.top {
+  background: url("../images/shops/magic-rangs/top-header-texture.jpg") 0 0 repeat-x;
+  height: 131px;
+}
+
+/* line 42, ../sass/magic-rangs.scss */
+div.middle {
+  background: url("../images/shops/magic-rangs/cloud-tile.jpg") 0 100% repeat-x;
+  height: 343px;
+  background-color: #3ec0d1;
+}
+
+/* line 47, ../sass/magic-rangs.scss */
+div.price {
+  height: 125px;
+  width: 83px;
+  position: absolute;
+  background: url("../images/shops/magic-rangs/price-badge.png") 0 0 no-repeat;
+  padding-top: 10px;
+  text-align: center;
+  margin: 50px 0 0 -15px;
+}
+
+/* line 56, ../sass/magic-rangs.scss */
+div.price h3 {
+  color: #ffa200;
+  text-shadow: white 2px 2px 2px, white -2px -2px 2px, white -2px 2px 2px, white 2px -2px 2px;
+}
+
+/* line 60, ../sass/magic-rangs.scss */
+div.price h3 small {
+  color: #d29324;
+}
+
+/* line 63, ../sass/magic-rangs.scss */
+img.product {
+  margin-left: 20px;
+}
+
+/* line 66, ../sass/magic-rangs.scss */
+ul.bulleted {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 67, ../sass/magic-rangs.scss */
+ul.bulleted li {
+  list-style-type: none;
+  background: url("../images/shops/magic-rangs/bullet.png") 0 0 no-repeat;
+  padding-left: 30px;
+}
+
+/* line 72, ../sass/magic-rangs.scss */
+div.content.products-features {
+  background: url("../images/shops/magic-rangs/top-bottom-texture.png") 0 0 repeat-x;
+}
+
+/* line 75, ../sass/magic-rangs.scss */
+div.content.products-features .section-content ul li, div.content.products-features .section-content p {
+  font-size: 13px;
+}
+
+/* line 77, ../sass/magic-rangs.scss */
+blockquote {
+  color: #333;
+  font-style: italic;
+  border: 0;
+  margin: 0 0 8px;
+  letter-spacing: -0.07em;
+}
+
+/* line 78, ../sass/magic-rangs.scss */
+blockquote cite {
+  font-size: 16px;
+  color: #3ec0d1;
+  font-weight: 700;
+}

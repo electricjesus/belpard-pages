@@ -1,0 +1,135 @@
+/* line 3, ../sass/iron-shield.scss */
+html {
+  background-color: #fbfbfb;
+}
+
+/* line 4, ../sass/iron-shield.scss */
+body * {
+  font-family: 'Droid Sans', serif;
+}
+
+/* line 6, ../sass/iron-shield.scss */
+.hero-unit .text {
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+/* line 7, ../sass/iron-shield.scss */
+.hero-unit h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/* line 8, ../sass/iron-shield.scss */
+.hero-unit p {
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+
+/* line 10, ../sass/iron-shield.scss */
+.content.features .block-grid.six-up li {
+  width: 140px;
+  margin: 0 10px;
+  min-height: 250px;
+}
+
+/* line 11, ../sass/iron-shield.scss */
+.content.features .block-grid.six-up li h5 {
+  height: 50px;
+}
+
+/* line 12, ../sass/iron-shield.scss */
+.content.uses .block-grid.four-up li {
+  width: 212px;
+  margin: 0 16px;
+}
+
+/* line 13, ../sass/iron-shield.scss */
+h1 {
+  color: #9f78ab;
+  font-family: 'news706_btbold';
+}
+
+/* line 14, ../sass/iron-shield.scss */
+h3 {
+  color: #9f78ab;
+  font-family: 'news706_btbold';
+}
+
+/* line 15, ../sass/iron-shield.scss */
+h5 {
+  color: #914127;
+}
+
+/* line 16, ../sass/iron-shield.scss */
+h1.company {
+  background: url("../images/shops/iron-shield/logo.png") 0 0 no-repeat;
+  height: 121px;
+  margin-top: 28px;
+}
+
+/* line 22, ../sass/iron-shield.scss */
+div.top {
+  background: url("../images/shops/iron-shield/top-head-texture.png") 50% 50% no-repeat;
+  background-size: 1400px;
+  height: 163px;
+}
+
+/* line 27, ../sass/iron-shield.scss */
+div.middle {
+  background: url("../images/shops/iron-shield/top-middle-texture.png") 50% 50% no-repeat;
+  background-size: 1400px;
+  height: 330px;
+  margin-top: -18px;
+}
+
+/* line 33, ../sass/iron-shield.scss */
+img.product {
+  position: absolute;
+  max-width: 800px;
+  width: 800px;
+  height: 544px;
+  margin-top: -70px;
+  margin-left: -50px;
+}
+
+/* line 41, ../sass/iron-shield.scss */
+img.product-mobile {
+  position: absolute;
+}
+
+/* line 45, ../sass/iron-shield.scss */
+div.content.features {
+  background: url("../images/shops/iron-shield/top-bottom-texture.png") 0 0 no-repeat;
+}
+
+/* line 49, ../sass/iron-shield.scss */
+.button {
+  background: #de7621;
+  border: 1px solid #8c691e;
+}
+
+/* line 50, ../sass/iron-shield.scss */
+.button:hover {
+  background: #f28f3f;
+}
+
+/* line 52, ../sass/iron-shield.scss */
+blockquote {
+  color: #333;
+  font-style: italic;
+  border: 0;
+  margin: 0 0 8px;
+}
+
+/* line 53, ../sass/iron-shield.scss */
+blockquote cite {
+  font-size: 16px;
+  color: #914127;
+  font-weight: 700;
+}
+
+/* line 55, ../sass/iron-shield.scss */
+div.footer {
+  background-image: url("../images/shops/iron-shield/footer-bg.png");
+}

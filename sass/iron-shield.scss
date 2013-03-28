@@ -1,0 +1,57 @@
+$mainProductImageWidth : 800px;
+$mainProductImageHeight : 544px;
+html {background-color:#fbfbfb}
+body * {font-family: 'Droid Sans', serif}
+
+.hero-unit .text {padding-left:20px;margin-top:50px}
+.hero-unit h1 {font-size:32px;font-weight:400}
+.hero-unit p {font-size:13px;letter-spacing:0.03em;}
+
+.content.features .block-grid.six-up li {width:140px;margin:0 10px;min-height:250px}
+.content.features .block-grid.six-up li h5 {height:50px}
+.content.uses .block-grid.four-up li {width:212px;margin:0 16px}
+h1 {color:#9f78ab;font-family:'news706_btbold'}
+h3 {color:#9f78ab;font-family:'news706_btbold'}
+h5 {color:#914127}
+h1.company {
+  background: url("../images/shops/iron-shield/logo.png") 0 0 no-repeat;
+  height: 121px;
+  margin-top: 28px;
+}
+
+div.top {
+	background: url("../images/shops/iron-shield/top-head-texture.png") 50% 50% no-repeat;
+	background-size:1400px;	
+	height:163px;
+}
+div.middle {
+	background: url("../images/shops/iron-shield/top-middle-texture.png") 50% 50% no-repeat;	
+	background-size:1400px;	
+	height:330px;
+	margin-top:-18px;
+}
+img.product {
+	position:absolute;
+	max-width:$mainProductImageWidth;
+	width: $mainProductImageWidth;
+	height: $mainProductImageHeight;
+	margin-top:-70px;
+	margin-left:-50px;
+}
+img.product-mobile {
+	position:absolute;
+}
+
+div.content.features {
+	background: url("../images/shops/iron-shield/top-bottom-texture.png") 0 0 no-repeat;	
+}
+
+.button {background:#de7621;border: 1px solid #8c691e;}
+.button:hover {background:#f28f3f}
+
+blockquote {color:#333;font-style:italic;border:0;margin:0 0 8px}
+blockquote cite {font-size:16px;color:#914127;font-weight:700}
+
+div.footer {
+	background-image: url("../images/shops/iron-shield/footer-bg.png");
+}

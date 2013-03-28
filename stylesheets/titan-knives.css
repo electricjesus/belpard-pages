@@ -1,0 +1,141 @@
+/* line 1, ../sass/titan-knives.scss */
+html, body {
+  background-color: #f5fcfd;
+}
+
+/* line 4, ../sass/titan-knives.scss */
+body * {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+/* line 13, ../sass/titan-knives.scss */
+.panel-title h5 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+
+/* line 19, ../sass/titan-knives.scss */
+h5 {
+  color: #0e76d2;
+}
+
+/* line 20, ../sass/titan-knives.scss */
+h5.yellow {
+  color: #ecdf08;
+  margin: 8px 0;
+}
+
+/* line 22, ../sass/titan-knives.scss */
+div.top {
+  background: url("../images/shops/titan-knives/top-head-texture.png") 50% 50% no-repeat;
+  background-size: 1024px;
+  height: 179px;
+}
+
+/* line 28, ../sass/titan-knives.scss */
+div.mktg-contact {
+  text-indent: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("../images/shops/titan-knives/need-help.png") 50% 50% no-repeat;
+  margin: 20px 0 0 80px;
+}
+
+/* line 37, ../sass/titan-knives.scss */
+h1.company {
+  background: url("../images/shops/titan-knives/logo-white.png") 0 0 no-repeat;
+  height: 79px;
+  margin: 32px 0 0 60px;
+}
+
+/* line 43, ../sass/titan-knives.scss */
+div.subnav {
+  padding: 10px 8px;
+  -webkit-box-shadow: 0px 0px 5px 1px #323232;
+  box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.5);
+  height: 38px;
+  background-color: #fff;
+}
+
+/* line 50, ../sass/titan-knives.scss */
+div.subnav dd a {
+  font-size: 13px;
+}
+
+/* line 53, ../sass/titan-knives.scss */
+div.row.search {
+  margin-top: -7px !important;
+}
+
+/* line 56, ../sass/titan-knives.scss */
+div.panel.banner {
+  background: url("../images/shops/titan-knives/banner-texture.png") 0 0 no-repeat;
+  height: 288px;
+}
+
+/* line 60, ../sass/titan-knives.scss */
+div.panel.banner p {
+  font-size: 10pt;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: #666666 1px 1px, #999999 -1px -1px;
+}
+
+/* line 66, ../sass/titan-knives.scss */
+div.columns.sidebar {
+  padding-left: 0;
+}
+
+/* line 70, ../sass/titan-knives.scss */
+div.panel {
+  background-color: #fcfcfc;
+  position: relative;
+}
+
+/* line 74, ../sass/titan-knives.scss */
+div.panel-title {
+  background-color: #003d74;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 233px;
+  height: 59px;
+  text-align: center;
+  background: url("../images/shops/titan-knives/panel-title-brush.png") 0 0 no-repeat #003d74;
+}
+
+/* line 85, ../sass/titan-knives.scss */
+div.panel-title h5 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* line 89, ../sass/titan-knives.scss */
+.sidebar div.panel {
+  padding-top: 59px;
+}
+
+/* line 92, ../sass/titan-knives.scss */
+dl.tabs {
+  margin: 0;
+}
+
+/* line 95, ../sass/titan-knives.scss */
+.tabs dd {
+  background-color: #fcfcfc;
+  margin: 0 1px;
+}
+
+/* line 99, ../sass/titan-knives.scss */
+.tabs dd a, .tabs li a {
+  padding: 0 8px;
+}
+
+/* line 102, ../sass/titan-knives.scss */
+.tabs dd.active a, .tabs li.active a {
+  font-weight: 400;
+  color: black;
+}
